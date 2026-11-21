@@ -1,4 +1,5 @@
 
+
 <?php
 // desactivar_producto.php
 require_once 'conexion.php';

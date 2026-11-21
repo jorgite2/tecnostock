@@ -39,6 +39,7 @@ $categorias = $pdo->query('SELECT id_categoria, nombre FROM categoria WHERE esta
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Editar producto - TecnoStock</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 

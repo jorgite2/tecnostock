@@ -1,8 +1,8 @@
 
 <?php
 // conexion.php
-$host = 'localhost';
-$port = '3307'; // Importante: tu MySQL está en este puerto
+$host = '127.0.0.1';
+$port = '3307';
 $baseDatos = 'tecnostock';
 $usuario = 'root';
 $clave = '1234';

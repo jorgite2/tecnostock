@@ -1,4 +1,5 @@
 
+
 <?php
 // guardar_producto.php
 require_once 'conexion.php';

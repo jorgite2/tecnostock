@@ -87,13 +87,19 @@ h1, h2, h3 {
     font-weight: 600;
 }
 
-.table-dark {
-    background: linear-gradient(135deg, #166534 0%, #14532d 100%) !important;
-}
-
 .alert-success {
     background-color: #d1fae5;
     border-color: #10b981;
     color: #065f46;
     border-radius: 10px;
+}
+
+.table-dark {
+    background: linear-gradient(135deg, #059669 0%, #047857 50%, #065f46 100%) !important;
+}
+
+.table-dark th {
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }

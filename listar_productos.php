@@ -40,11 +40,15 @@ $productos = $sentencia->fetchAll();
 </head>
 <body class="bg-light">
 
-    <main class="container py-5">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="h3">Productos registrados</h1>
-            <a href="index.html" class="btn btn-primary">Registrar nuevo producto</a>
+   <main class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <h1 class="h3 mb-0">Productos registrados</h1>
+        <div class="d-flex gap-2 align-items-center">
+            <a href="registrar_movimiento.html" class="btn btn-outline-success btn-sm">Registrar movimiento</a>
+            <a href="index.html" class="btn btn-primary btn-sm">Registrar nuevo producto</a>
+            <a href="cerrar_sesion.php" class="btn btn-outline-danger btn-sm">Cerrar sesión</a>
         </div>
+    </div>
 
         <!-- Mensaje de éxito -->
         <?php if (isset($_GET['creado'])): ?>
